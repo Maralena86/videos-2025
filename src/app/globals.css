@@ -31,15 +31,18 @@ h1{
 }
 .gradient-text {
   font-weight: 300; /* ou autre */
-  background: linear-gradient(90deg, #a687db, #d5dddf); /* ton dégradé ici */
+  background: linear-gradient(90deg, #b6a5ca, #d5dddf); /* ton dégradé ici */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; 
+}
+.bg-gradient-video{
+  background: linear-gradient(135deg, #191c52, #15072c);
 }
 .text-color-second {
   color: #faecd7;
 }
 #img-logo{
-  box-shadow: -1px 3px 20px 20px
+  box-shadow: -1px 3px 20px 20px #101010;
 }
 button{
   cursor: pointer;

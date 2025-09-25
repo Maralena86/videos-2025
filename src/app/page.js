@@ -50,11 +50,12 @@ export default function Home() {
 					height={38}
 					alt="Logo"
 				/>
+
 				<h2
 					style={{ fontWeight: 300 }}
 					className="text-2xl font-bold text-color-second"
 				>
-					Connexion
+					Conexión
 				</h2>
 				<form
 					className="flex flex-col gap-4 w-full max-w-sm"
@@ -80,7 +81,7 @@ export default function Home() {
 						type="submit"
 						className="bg-gradient-to-bl from-purple-900 to-blue-800 text-white rounded p-2"
 					>
-						Se connecter
+						Conectarse
 					</button>
 					{error && <p className="text-red-600">{error}</p>}
 				</form>
@@ -100,7 +101,7 @@ export default function Home() {
 						onClick={handleLogout}
 						className="bg-gradient-to-bl from-purple-900 to-blue-800 text-white px-3 py-1 rounded"
 					>
-						Déconnexion
+						Deconectarse
 					</button>
 				</div>
 
@@ -111,7 +112,7 @@ export default function Home() {
 					Curso de astrologia 2025
 				</h1>
 
-				<div className="bg-gradient-to-br from-purple-900 to-blue-900 rounded p-[5px] ">
+				<div className="bg-gradient-video rounded p-[5px] ">
 					<video
 						width="400"
 						controls
