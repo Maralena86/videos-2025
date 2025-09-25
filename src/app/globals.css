@@ -29,3 +29,18 @@ h1{
   font-weight: bold;
   text-transform: uppercase;
 }
+.gradient-text {
+  font-weight: 300; /* ou autre */
+  background: linear-gradient(90deg, #a687db, #d5dddf); /* ton dégradé ici */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
+.text-color-second {
+  color: #faecd7;
+}
+#img-logo{
+  box-shadow: -1px 3px 20px 20px
+}
+button{
+  cursor: pointer;
+}
